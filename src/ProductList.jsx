@@ -3,8 +3,32 @@ import { Product } from './Product';
 import { products } from './seed';
 
 export class ProductList extends React.Component {
+  state = {
+    products: [],
+  };
+
+  componentDidMount() {
+    this.setState({ products: products });
+  }
+
+  handleProductUpVote = productId => {
+    const nextProducts = this.state.products.map(product => {
+      if (product.id === productId) {
+        return Object.assign({}, product, {
+          votes: product.votes + 1,
+        });
+      } else {
+        return product;
+      }
+    });
+    this.setState({
+      products: nextProducts,
+    });
+  };
+
   render() {
-    const productComponents = products.map(product => (
+    const product = products.sort((a, b) => b.votes - a.votes);
+    const productComponents = product.map(product => (
       <Product
         id={product.id}
         title={product.title}
@@ -13,6 +37,7 @@ export class ProductList extends React.Component {
         votes={product.votes}
         submitterAvatarUrl={product.submitterAvatarUrl}
         productImageUrl={product.productImageUrl}
+        onVote={this.handleProductUpVote}
       />
     ));
 

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { products } from './seed';
 
 export class Product extends React.Component {
+  handleUpVote = e => console.log('button clicked for' + e.target);
+
   render() {
     return (
       <div className="item">
@@ -10,7 +12,7 @@ export class Product extends React.Component {
         </div>
         <div className="middle aligned content">
           <div className="header">
-            <a>
+            <a onClick={this.handleUpVote}>
               <i className="large caret up icon" />
             </a>
             {this.props.votes}
@@ -24,7 +26,6 @@ export class Product extends React.Component {
             <img
               className="ui avatar image"
               src={this.props.submitterAvatarUrl}
-              alt=""
             />
           </div>
         </div>

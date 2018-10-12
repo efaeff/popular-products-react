@@ -1,4 +1,4 @@
-const generateVoteCount = () => 'votes';
+const generateVoteCount = () => console.log('du[a');
 
 export const products = [
   {
@@ -6,7 +6,7 @@ export const products = [
     title: 'Cute babies',
     description: 'Sooooooooooo Cute Vote For Us<3',
     url: '#',
-    votes: generateVoteCount(),
+    votes: 0,
     submitterAvatarUrl:
       'https://images.pexels.com/photos/259803/pexels-photo-259803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     productImageUrl:
@@ -17,7 +17,7 @@ export const products = [
     title: 'Very Cute',
     description: 'I Am So Lovely, Please Vote For Me<3',
     url: '#',
-    votes: generateVoteCount(),
+    votes: 0,
     submitterAvatarUrl:
       'https://images.pexels.com/photos/615369/pexels-photo-615369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     productImageUrl:
@@ -28,7 +28,7 @@ export const products = [
     title: 'Cute Blue Eyes',
     description: 'I Am Cute Vote For Me<3',
     url: '#',
-    votes: generateVoteCount(),
+    votes: 0,
     submitterAvatarUrl:
       'https://images.pexels.com/photos/225406/pexels-photo-225406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     productImageUrl:
@@ -39,7 +39,7 @@ export const products = [
     title: 'Very Cute Black Cat',
     description: 'Wow wow Vote For Me<3',
     url: '#',
-    votes: generateVoteCount(),
+    votes: 0,
     submitterAvatarUrl:
       'https://images.pexels.com/photos/37337/cat-silhouette-cats-silhouette-cat-s-eyes.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     productImageUrl:
