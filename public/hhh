@@ -1,0 +1,50 @@
+<section className="product">
+          <div className="description">
+            <h1>Pink Donut</h1>
+            <p>
+              Pink Donut is an idea company that builds ideas that are as
+              awesome as they are random. Maker of RokBlok, LookFor, City Under
+              Karl and more to come.
+            </p>
+          </div>
+          <img
+            className="img-1"
+            src="https://images.pexels.com/photos/928475/pexels-photo-928475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt=""
+          />
+
+          <div className="extra">
+            <span>Added by: </span>
+            <img
+              className="avatar"
+              src="https://images.pexels.com/photos/41327/concentration-curiosity-curious-education-41327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />{' '}
+          </div>
+        </section>
+
+        <section className="product">
+          <div className="description">
+            <h1>Pink Donut</h1>
+            <p>
+              Pink Donut is an idea company that builds ideas that are as
+              awesome as they are random. Maker of RokBlok, LookFor, City Under
+              Karl and more to come.
+            </p>
+          </div>
+          <img
+            className="img-1"
+            src="https://images.pexels.com/photos/928475/pexels-photo-928475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt=""
+          />
+
+          <div className="extra">
+            <span>Added by: </span>
+            <img
+              className="avatar"
+              src="https://images.pexels.com/photos/41327/concentration-curiosity-curious-education-41327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />{' '}
+
+          </div>
+        </section>
